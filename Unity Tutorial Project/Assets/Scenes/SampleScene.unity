@@ -227,6 +227,7 @@ GameObject:
   - component: {fileID: 1753392659}
   - component: {fileID: 1753392661}
   - component: {fileID: 1753392662}
+  - component: {fileID: 1753392663}
   m_Layer: 0
   m_Name: TestObject
   m_TagString: Untagged
@@ -324,5 +325,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 176f79f5b342706429730583c41de089, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editorString: Hello There
+  targetScale: 0
+  playerSprite: {fileID: 1753392661}
+  spriteColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1753392663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753392658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dd81464ce3df784aa9959eb26ef6921, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
